@@ -29,6 +29,7 @@ font-family: 'Roboto', sans-serif;*/
   font-size: 25px;
   color: #818181;
   display: block;
+   margin: 20px auto 50px auto;
 }
 
 .sidenav a:hover {
@@ -57,6 +58,7 @@ font-family: 'Roboto', sans-serif;*/
   height: 160px;
   left: 236.32px;
   top: 55.25px;
+  border-radius: 14px;
 }
 
 .texto h1{
@@ -73,6 +75,8 @@ margin: 46.42px 410.5px 56.58px 31.5px;
 
 
 .texto p{
+  position: relative;
+  bottom: 100px;
   Width: 185px;
   Height: 24px;
   Top: 151,14px;
@@ -88,5 +92,62 @@ margin: 46.42px 410.5px 56.58px 31.5px;
   position: relative;
   right: 252px;
   bottom: 30px;
+}
+
+/********************************************/
+
+.sub{
+  display: flex;
+  position: absolute;
+  width: 620px;
+  height: 80px;
+  left: 236px;
+  top: 239.34px;
+  
+}
+
+.sub-curso{
+  display: flex;
+  flex-direction: row;
+  width: 500.26px;
+  height: 80px;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+
+}
+
+.bandeira{
+  background-color: white;
+  width: 64px;
+  height: 64px;
+  margin: 8px 24px 8px 8.5px;
+  border-radius: 12px;
+}
+
+.bandeira img{
+margin: 16px;
+}
+
+.sub-texto{
+  margin-top:18.95px ;
+  height: 60px;
+  
+ 
+  
+
+}
+
+.sub-texto h1{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.sub-texto p{
+  font-size: 13px;
+  line-height: 15.23px;
+  font-family: 'Roboto', sans-serif;
+  
+
 }
 
