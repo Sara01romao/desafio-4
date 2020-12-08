@@ -1,0 +1,92 @@
+/*font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidenav {
+  height: 852px;
+  width: 132px;
+  position: fixed;
+  border-radius: 24px;
+  top: 24.02px;
+  left: 32.34px;
+  background: #0C0B0B;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+
+ 
+}
+
+.sidenav img {
+  margin-top: 20px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/***********************************************************/
+
+.into {
+  margin-left: 250px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+  
+  
+}
+
+.hello{
+  display: flex;
+  background-color: #F5F5F7;
+  position: absolute;
+  width: 620px;
+  height: 160px;
+  left: 236.32px;
+  top: 55.25px;
+}
+
+.texto h1{
+font-size: 36px;
+Width: 178px;
+Height: 57px;
+Top: 101.67px;
+Left:267.82px;
+line-height: 57.38px;
+font-family: 'Baloo Bhai 2', cursive, serif;
+
+margin: 46.42px 410.5px 56.58px 31.5px;
+}
+
+
+.texto p{
+  Width: 185px;
+  Height: 24px;
+  Top: 151,14px;
+  Left: 267,82px;
+  font-size: 16px;
+  font-weight: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 95.89px 403.5px 40.11px 31.5px;
+
+}
+
+.avatar img{
+  position: relative;
+  right: 252px;
+  bottom: 30px;
+}
+
