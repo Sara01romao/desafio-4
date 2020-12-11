@@ -32,6 +32,10 @@ font-family: 'Roboto', sans-serif;*/
    margin: 20px auto 50px auto;
 }
 
+.sair{
+  margin-top:100px ;
+}
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
@@ -177,15 +181,16 @@ svg {
   fill: transparent;
   stroke-width: 5px;
   stroke: #ddd;
-  margin-top: 10px;
-  margin-left: 20px;
-  
-  
- 
+  margin-top: 5px;
+  margin-left: 30px;
 
 }
 
-
+.counter{
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
 
 
 
@@ -199,6 +204,7 @@ svg {
   stroke-dashoffset: calc(var(--size) - 25.42);
   transform: rotate(-20deg);
   transform-origin: center;
+  
 }
 
 .continue{
@@ -209,8 +215,35 @@ svg {
   background-color: #0C0B0B;
   color: white;
   border-radius: 8px;
-  text-align: center;
+  border: none;
+ 
 }
 
+.continue:hover{
+  background-color: #2c2c2c;
+}
+
+
+.continue p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+}
 /********************************/
+
+
+.setas{
+  margin-top: 21.83px;
+  margin-left: 23.64px;
+}
+
+.setas img{
+  width: 40px;
+  height: 40px;
+}
+
+.seta1{
+  margin-right: 8.2px;
+}
 
