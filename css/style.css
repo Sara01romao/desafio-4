@@ -52,6 +52,7 @@ font-family: 'Roboto', sans-serif;*/
   padding: 0px 10px;
   
   
+  
 }
 
 .hello{
@@ -151,7 +152,7 @@ margin: 16px;
   font-size: 13px;
   line-height: 15.23px;
   font-family: 'Roboto', sans-serif;
-  
+ 
 
 }
 
@@ -246,4 +247,108 @@ svg {
 .seta1{
   margin-right: 8.2px;
 }
+
+/***************************************/
+.sub2{
+  position: absolute;
+  left: 236px;
+  
+  margin-top: 350px;
+ border: 1px solid black;
+}
+
+.sub2 h2{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 24px;
+line-height: 38px;
+margin-bottom: 16.24px;
+}
+
+
+.subnav {
+  display: flex;
+  list-style: none;
+}
+
+
+
+.subnav h3{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25.5px;
+  margin-right: 29.71px;
+}
+
+.desativo{
+  color:#a7a5a5 ;
+}
+
+.cursos{
+  display: flex;
+  flex-direction: row;
+  width: 620px;
+  height: 80px;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+}
+
+.cimg{
+  background-color: white;
+  width: 64px;
+  height: 64px;
+  margin: 8px 24px 8px 8.5px;
+  border-radius: 12px;
+  
+}
+
+.cimg img{
+margin:16px;
+
+}
+
+.time{
+  display: flex;
+  align-items: center;
+  margin-left: 57.55px;
+}
+
+.time p{
+  font-size: 13px;
+  margin-left: 7.96px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ofenciva{
+  display: flex;
+  align-items: center;
+  margin-left: 40.78px;
+}
+
+.ofenciva p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.ofenciva img{
+  margin-bottom: 5px;
+}
+
+.vcurso{
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 31.61px;
+  border: 2px solid #0C0B0B;
+  border-radius: 8px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+
 
