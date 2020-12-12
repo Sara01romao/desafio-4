@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif;*/
 .sidenav {
   height: 852px;
   width: 132px;
-  position: fixed;
+  position: absolute;
   border-radius: 24px;
   top: 24.02px;
   left: 32.34px;
@@ -79,6 +79,7 @@ margin: 46.42px 410.5px 56.58px 31.5px;
 }
 
 
+
 .texto p{
   position: relative;
   bottom: 100px;
@@ -121,6 +122,8 @@ margin: 46.42px 410.5px 56.58px 31.5px;
 
 }
 
+
+
 .bandeira{
   background-color: white;
   width: 64px;
@@ -137,9 +140,8 @@ margin: 16px;
   margin-top:18.95px ;
   height: 60px;
   
- 
+  width: 155px;
   
-
 }
 
 .sub-texto h1{
@@ -152,6 +154,7 @@ margin: 16px;
   font-size: 13px;
   line-height: 15.23px;
   font-family: 'Roboto', sans-serif;
+ 
  
 
 }
@@ -217,20 +220,21 @@ svg {
   color: white;
   border-radius: 8px;
   border: none;
- 
-}
 
-.continue:hover{
-  background-color: #2c2c2c;
-}
-
-
-.continue p{
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   line-height: 15px;
   font-weight: 700;
+ 
 }
+
+.continue:hover{
+  background-color: #444343b9;
+  font-size: 18px;
+  
+
+}
+
 /********************************/
 
 
@@ -243,6 +247,13 @@ svg {
   width: 40px;
   height: 40px;
 }
+.setas img:hover{
+  width: 41px;
+  height: 41px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
 
 .seta1{
   margin-right: 8.2px;
@@ -254,7 +265,7 @@ svg {
   left: 236px;
   
   margin-top: 350px;
- border: 1px solid black;
+ 
 }
 
 .sub2 h2{
@@ -284,6 +295,11 @@ margin-bottom: 16.24px;
   color:#a7a5a5 ;
 }
 
+
+.desativo:hover{
+  color:#3d3d3d ;
+}
+
 .cursos{
   display: flex;
   flex-direction: row;
@@ -291,6 +307,7 @@ margin-bottom: 16.24px;
   height: 80px;
   background-color: #F5F5F7;
   border-radius: 14px;
+  margin-bottom: 16px;
 }
 
 .cimg{
@@ -310,7 +327,7 @@ margin:16px;
 .time{
   display: flex;
   align-items: center;
-  margin-left: 57.55px;
+  margin-left: 27.55px;
 }
 
 .time p{
@@ -331,6 +348,22 @@ margin:16px;
   margin-left: 10px;
 }
 
+ .ofenciva2{
+  display: flex;
+  align-items: center;
+  margin-left: 30.78px;
+ }
+
+ .ofenciva2 p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+
+
+
 .ofenciva img{
   margin-bottom: 5px;
 }
@@ -350,5 +383,9 @@ margin:16px;
   line-height: 15px;
 }
 
+.vcurso:hover{
+  border: 5px solid black;
+  font-size: 14px;
 
+}
 
