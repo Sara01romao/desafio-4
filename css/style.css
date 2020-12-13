@@ -50,6 +50,8 @@ font-family: 'Roboto', sans-serif;*/
   margin-left: 250px; 
   font-size: 28px; 
   padding: 0px 10px;
+  margin-right: 64.46px;
+
   
   
   
@@ -387,5 +389,85 @@ margin:16px;
   border: 5px solid black;
   font-size: 14px;
 
+}
+
+/***********************************************************/
+body{
+  display: flex;
+}
+
+
+
+.into2{
+  border: 1px solid red;
+  margin-left: 550px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+
+}
+
+.busca{
+  margin-top: 55.25px;
+  display: flex;
+
+  
+}
+
+.bInput{
+
+  height: 40px;
+  
+  align-items: flex-start;
+  
+}
+
+.bInput input{
+
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F5F5F7;
+}
+
+.bInput img{
+  position: relative;
+  left: 50px;
+  top: 8px;
+  
+  
+}
+
+/*********************************/
+
+.notificacao{
+  display: flex;
+  margin-left: 35.41px;
+  margin-bottom: 10px;
+
+}
+
+.notificacao p{
+  background-color:#F45B5B;
+  width: 14px;
+  height: 14px;
+  font-size: 10px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  position:relative;
+  top: 5px;
+  right: 10px;
+  
+}
+
+/*****************************/
+
+.perfilConfig{
+  display: flex;
+}
+
+.perfilConfig img{
+  margin-right: 10px;
 }
 
