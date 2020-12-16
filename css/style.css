@@ -539,6 +539,8 @@ margin: 0px 5px 0px auto ;
 
 }
 
+
+
 .topicos select{
   background-color:  #F5F5F7;
   width: 88px;
@@ -557,11 +559,16 @@ margin: 0px 5px 0px auto ;
   position: relative;
   left: 50px;
 
-
-  
-
- 
 }
 
+#chart_div{
+  position: relative;
+  right: 154px;
+  bottom: 20px;
+  padding: 50px;
+  
+ 
+}
 /*font-family: 'Baloo Bhai 2', cursive;
 font-family: 'Roboto', sans-serif;*/
+

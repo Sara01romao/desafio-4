@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 <body>
 
@@ -255,7 +255,7 @@
     <h2>Your statistics</h2>
     <div class="topicos">
         <h3>Learning Hours</h3>
-        <h3>My Courses</h3>
+        <h3 class="desativo">My Courses</h3>
         
 
         <select >
@@ -263,14 +263,17 @@
           <option value="">Weekly</option>
           <option value="">Weekly</option>
         </select>
-    </div>
 
+        
+    </div>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div" style="width: 650px; height: 450px"></div>
   </div>
 
 
 </section>
 
-
+<script src="script.js"></script>
 
 </body>
 </html> 
