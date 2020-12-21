@@ -2,639 +2,581 @@
 font-family: 'Roboto', sans-serif;*/
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .sidenav {
-  height: 852px;
-  width: 132px;
-  position: absolute;
-  border-radius: 24px;
-  top: 24.02px;
-  left: 32.34px;
-  background: #0C0B0B;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-
+    height: 852px;
+    width: 132px;
+    position: absolute;
+    border-radius: 24px;
+    top: 24.02px;
+    left: 32.34px;
+    background: #0c0b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sidenav img {
-  margin-top: 20px;
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  margin: 20px auto 50px auto;
+    margin-top: 20px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    margin: 20px auto 50px auto;
 }
 
 .sair {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
+
 
 /***********************************************************/
 
 .into {
-  margin-left: 250px;
-  font-size: 28px;
-  padding: 0px 10px;
-  margin-right: 64.46px;
-
-
-
-
+    margin-left: 250px;
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-right: 64.46px;
 }
 
 .hello {
-  display: flex;
-  background-color: #F5F5F7;
-  position: absolute;
-  width: 620px;
-  height: 160px;
-  left: 236.32px;
-  top: 55.25px;
-  border-radius: 14px;
+    display: flex;
+    background-color: #f5f5f7;
+    position: absolute;
+    width: 620px;
+    height: 160px;
+    left: 236.32px;
+    top: 55.25px;
+    border-radius: 14px;
 }
 
 .texto h1 {
-  font-size: 36px;
-  Width: 178px;
-  Height: 57px;
-  Top: 101.67px;
-  Left: 267.82px;
-  line-height: 57.38px;
-  font-family: 'Baloo Bhai 2', cursive, serif;
-
-  margin: 46.42px 410.5px 56.58px 31.5px;
+    font-size: 36px;
+    width: 178px;
+    height: 57px;
+    top: 101.67px;
+    left: 267.82px;
+    line-height: 57.38px;
+    font-family: "Baloo Bhai 2", cursive, serif;
+    margin: 46.42px 410.5px 56.58px 31.5px;
 }
 
-
-
 .texto p {
-  position: relative;
-  bottom: 100px;
-  Width: 185px;
-  Height: 24px;
-  Top: 151, 14px;
-  Left: 267, 82px;
-  font-size: 16px;
-  font-weight: 24px;
-  font-family: 'Roboto', sans-serif;
-  margin: 95.89px 403.5px 40.11px 31.5px;
-
+    position: relative;
+    bottom: 100px;
+    width: 185px;
+    height: 24px;
+    top: 151, 14px;
+    left: 267, 82px;
+    font-size: 16px;
+    font-weight: 24px;
+    font-family: "Roboto", sans-serif;
+    margin: 95.89px 403.5px 40.11px 31.5px;
 }
 
 .avatar img {
-  position: relative;
-  right: 252px;
-  bottom: 30px;
+    position: relative;
+    right: 252px;
+    bottom: 30px;
 }
+
 
 /********************************************/
 
 .sub {
-  display: flex;
-  position: absolute;
-  width: 620px;
-  height: 80px;
-  left: 236px;
-  top: 239.34px;
-
+    display: flex;
+    position: absolute;
+    width: 620px;
+    height: 80px;
+    left: 236px;
+    top: 239.34px;
 }
 
 .sub-curso {
-  display: flex;
-  flex-direction: row;
-  width: 500.26px;
-  height: 80px;
-  background-color: #F5F5F7;
-  border-radius: 14px;
-
+    display: flex;
+    flex-direction: row;
+    width: 500.26px;
+    height: 80px;
+    background-color: #f5f5f7;
+    border-radius: 14px;
 }
 
-
-
 .bandeira {
-  background-color: white;
-  width: 64px;
-  height: 64px;
-  margin: 8px 24px 8px 8.5px;
-  border-radius: 12px;
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    margin: 8px 24px 8px 8.5px;
+    border-radius: 12px;
 }
 
 .bandeira img {
-  margin: 16px;
+    margin: 16px;
 }
 
 .sub-texto {
-  margin-top: 18.95px;
-  height: 60px;
-
-  width: 155px;
-
+    margin-top: 18.95px;
+    height: 60px;
+    width: 155px;
 }
 
 .sub-texto h1 {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: 'Baloo Bhai 2', cursive;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Baloo Bhai 2", cursive;
 }
 
 .sub-texto p {
-  font-size: 13px;
-  line-height: 15.23px;
-  font-family: 'Roboto', sans-serif;
-
-
-
+    font-size: 13px;
+    line-height: 15.23px;
+    font-family: "Roboto", sans-serif;
 }
+
 
 /*********/
 
 .graph {
-  text-align: center;
-  width: 100px;
-  height: 100px;
-  line-height: 60px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  text-decoration: none;
-  font-size: 12px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 svg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  fill: transparent;
-  stroke-width: 5px;
-  stroke: #ddd;
-  margin-top: 5px;
-  margin-left: 30px;
-
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    fill: transparent;
+    stroke-width: 5px;
+    stroke: #ddd;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 
 .counter {
-  margin-left: 10px;
-  margin-bottom: 15px;
-  font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 400;
 }
 
-
-
 :root {
-  --size: 255;
+    --size: 255;
 }
 
 .graph svg.cor {
-  stroke: rgb(0, 0, 0);
-  stroke-dasharray: 335;
-  stroke-dashoffset: calc(var(--size) - 25.42);
-  transform: rotate(-20deg);
-  transform-origin: center;
-
+    stroke: rgb(0, 0, 0);
+    stroke-dasharray: 335;
+    stroke-dashoffset: calc(var(--size) - 25.42);
+    transform: rotate(-20deg);
+    transform-origin: center;
 }
 
 .continue {
-  position: relative;
-  top: 20px;
-  width: 120px;
-  height: 40px;
-  background-color: #0C0B0B;
-  color: white;
-  border-radius: 8px;
-  border: none;
-
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  line-height: 15px;
-  font-weight: 700;
-
+    position: relative;
+    top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #0c0b0b;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
 }
 
 .continue:hover {
-  background-color: #444343b9;
-  font-size: 18px;
-
-
+    background-color: #444343b9;
+    font-size: 18px;
 }
+
 
 /********************************/
 
-
 .setas {
-  margin-top: 21.83px;
-  margin-left: 23.64px;
+    margin-top: 21.83px;
+    margin-left: 23.64px;
 }
 
 .setas img {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .setas img:hover {
-  width: 41px;
-  height: 41px;
-  border: 2px solid black;
-  border-radius: 50px;
+    width: 41px;
+    height: 41px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
-
 
 .seta1 {
-  margin-right: 8.2px;
+    margin-right: 8.2px;
 }
 
+
 /***************************************/
+
 .sub2 {
-  position: absolute;
-  left: 236px;
-
-  margin-top: 350px;
-
+    position: absolute;
+    left: 236px;
+    margin-top: 350px;
 }
 
 .sub2 h2 {
-  font-family: 'Baloo Bhai 2', cursive;
-  font-size: 24px;
-  line-height: 38px;
-  margin-bottom: 16.24px;
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 16.24px;
 }
-
 
 .subnav {
-  display: flex;
-  list-style: none;
+    display: flex;
+    list-style: none;
 }
 
-
-
 .subnav h3 {
-  font-family: 'Baloo Bhai 2', cursive;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 25.5px;
-  margin-right: 29.71px;
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25.5px;
+    margin-right: 29.71px;
 }
 
 .desativo {
-  color: #a7a5a5;
+    color: #a7a5a5;
 }
 
-
 .desativo:hover {
-  color: #3d3d3d;
+    color: #3d3d3d;
 }
 
 .cursos {
-  display: flex;
-  flex-direction: row;
-  width: 620px;
-  height: 80px;
-  background-color: #F5F5F7;
-  border-radius: 14px;
-  margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    height: 80px;
+    background-color: #f5f5f7;
+    border-radius: 14px;
+    margin-bottom: 16px;
 }
 
 .cimg {
-  background-color: white;
-  width: 64px;
-  height: 64px;
-  margin: 8px 24px 8px 8.5px;
-  border-radius: 12px;
-
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    margin: 8px 24px 8px 8.5px;
+    border-radius: 12px;
 }
 
 .cimg img {
-  margin: 16px;
-
+    margin: 16px;
 }
 
 .time {
-  display: flex;
-  align-items: center;
-  margin-left: 27.55px;
+    display: flex;
+    align-items: center;
+    margin-left: 27.55px;
 }
 
 .time p {
-  font-size: 13px;
-  margin-left: 7.96px;
-  font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-left: 7.96px;
+    font-family: "Roboto", sans-serif;
 }
 
 .ofenciva {
-  display: flex;
-  align-items: center;
-  margin-left: 40.78px;
+    display: flex;
+    align-items: center;
+    margin-left: 40.78px;
 }
 
 .ofenciva p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
 }
 
 .ofenciva2 {
-  display: flex;
-  align-items: center;
-  margin-left: 30.78px;
+    display: flex;
+    align-items: center;
+    margin-left: 30.78px;
 }
 
 .ofenciva2 p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  margin-left: 10px;
-  margin-top: 7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 7px;
 }
 
-
-
-
 .ofenciva img {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .vcurso {
-  width: 120px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: 31.61px;
-  border: 2px solid #0C0B0B;
-  border-radius: 8px;
-
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 15px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 31.61px;
+    border: 2px solid #0c0b0b;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .vcurso:hover {
-  border: 5px solid black;
-  font-size: 14px;
-
+    border: 5px solid black;
+    font-size: 14px;
 }
+
 
 /***********************************************************/
+
 body {
-  display: flex;
+    display: flex;
 }
 
-
-
 .into2 {
-  border: 1px solid red;
-  margin-left: 550px;
-  font-size: 28px;
-  padding: 0px 10px;
-
+    margin-left: 550px;
+    font-size: 28px;
+    padding: 0px 10px;
 }
 
 .busca {
-  margin-top: 55.25px;
-  display: flex;
-
-
+    margin-top: 55.25px;
+    display: flex;
 }
 
 .bInput {
-
-  height: 40px;
-
-  align-items: flex-start;
-
+    height: 40px;
+    align-items: flex-start;
 }
 
 .bInput input {
-
-  width: 300px;
-  height: 40px;
-  border-radius: 8px;
-  border: none;
-  background-color: #F5F5F7;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f5f5f7;
 }
 
 .bInput img {
-  position: relative;
-  left: 50px;
-  top: 8px;
-
-
+    position: relative;
+    left: 50px;
+    top: 8px;
 }
+
 
 /*********************************/
 
 .notificacao {
-  display: flex;
-  margin-left: 35.41px;
-  margin-bottom: 10px;
-
+    display: flex;
+    margin-left: 35.41px;
+    margin-bottom: 10px;
 }
 
 .notificacao p {
-  background-color: #F45B5B;
-  width: 14px;
-  height: 14px;
-  font-size: 10px;
-  border-radius: 50px;
-  text-align: center;
-  color: white;
-  position: relative;
-  top: 5px;
-  right: 10px;
-
+    background-color: #f45b5b;
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 5px;
+    right: 10px;
 }
+
 
 /*****************************/
 
 .perfilConfig {
-  display: flex;
+    display: flex;
 }
 
 .perfilConfig img {
-  margin-right: 10px;
+    margin-right: 10px;
 }
+
 
 /*********************************/
 
 .cards {
-  margin-top: 23.67px;
-  display: flex;
-  margin: 30px;
-
-
+    margin-top: 23.67px;
+    display: flex;
+    margin: 30px;
 }
 
 .cards p {
-  font-size: 16px;
-  line-height: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-family: 'Roboto', sans-serif;
-  width: 80px;
-  height: 48px;
-  margin: 25.05px auto 18.28px 10.52px;
-
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    width: 80px;
+    height: 48px;
+    margin: 25.05px auto 18.28px 10.52px;
 }
 
 .cards h1 {
-  font-family: 'Baloo Bhai 2', cursive;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 102px;
-  width: 38.14px;
-  height: 70.72px;
-  margin: 0px 5px 0px auto;
-
+    font-family: "Baloo Bhai 2", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 102px;
+    width: 38.14px;
+    height: 70.72px;
+    margin: 0px 5px 0px auto;
 }
 
 .card1,
 .card2 {
-  display: flex;
-  width: 208px;
-  height: 96.33px;
-  border-radius: 14px;
-  background-color: #F5F5F7;
-
-  margin-right: 23.78px;
-
+    display: flex;
+    width: 208px;
+    height: 96.33px;
+    border-radius: 14px;
+    background-color: #f5f5f7;
+    margin-right: 23.78px;
 }
+
 
 /******************************************/
 
 .statis {
-  margin-left: 35px;
+    margin-left: 35px;
 }
 
 .statis h2 {
-  font-family: 'Baloo Bhai 2', sans-serif;
-  font-size: 24px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 24px;
 }
 
-
 .topicos {
-  display: flex;
+    display: flex;
 }
 
 .topicos h3 {
-  font-family: 'Baloo Bhai 2', sans-serif;
-  font-size: 16px;
-  margin-right: 24px;
-
-
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 16px;
+    margin-right: 24px;
 }
 
-
-
 .topicos select {
-  background-color: #F5F5F7;
-  width: 88px;
-  height: 32px;
-  border-radius: 8px;
-  border: none;
-  margin-left: 110px;
-  font-weight: bold;
-
-
+    background-color: #f5f5f7;
+    width: 88px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 110px;
+    font-weight: bold;
 }
 
 .topicos select option {
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  position: relative;
-  left: 50px;
-
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
 }
 
 #chart_div {
-  position: relative;
-  right: 154px;
-  bottom: 20px;
-  padding: 15px 0px 0px 38px;
-
-
+    position: relative;
+    right: 154px;
+    bottom: 20px;
+    padding: 15px 0px 0px 38px;
 }
+
 
 /******************************/
+
 .learn {
-  background-color: #F5F5F7;
-  width: 440px;
-  height: 193px;
-  display: flex;
-  margin-left:35px;
+    background-color: #f5f5f7;
+    width: 440px;
+    height: 193px;
+    display: flex;
+    margin-left: 35px;
 }
-.learn-texto{
-  margin-left: 23.69px;
-  margin-top: 24.09px;
+
+.learn-texto {
+    margin-left: 23.69px;
+    margin-top: 24.09px;
 }
+
 .learn-texto h2 {
-  font-family: 'Baloo Bhai 2', cursive;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 38px;
+    font-family: "Baloo Bhai 2", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
 }
 
 .learn-texto p {
-  width: 179px;
-  height: 48px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  margin-right:32px;
-  margin-bottom: 10px;
-  
+    width: 179px;
+    height: 48px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 32px;
+    margin-bottom: 10px;
 }
 
-.learn-texto button{
-  margin-top: 24.22px;
-  width: 120px;
-  height: 40px;
-  background: #0C0B0B;
-  border-radius: 8px;
-  color: white;
-  font-weight: bold;
+.learn-texto button {
+    margin-top: 24.22px;
+    width: 120px;
+    height: 40px;
+    background: #0c0b0b;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
 }
 
-.learn-texto button:hover{
-  background-color: rgb(46, 45, 45);
-  font-size: 15px;
+.learn-texto button:hover {
+    background-color: rgb(46, 45, 45);
+    font-size: 15px;
 }
 
-.learn-img{
- 
-  margin-left: 30px;
+.learn-img {
+    margin-left: 30px;
 }
 
-.learn-img img{
-  margin-top: 37.23px;
+.learn-img img {
+    margin-top: 37.23px;
 }
+
 
 /*font-family: 'Baloo Bhai 2', cursive;
 font-family: 'Roboto', sans-serif;*/
